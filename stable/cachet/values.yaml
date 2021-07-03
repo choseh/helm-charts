@@ -21,6 +21,7 @@ service:
 ingress:
   enabled: false
   annotations: {}
+  ingressClassName: {}
   host: chart-example.local
   tls: []
   path: /
